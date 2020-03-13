@@ -17,8 +17,8 @@ image:
 
   ## The repository and image
   ## ref: https://hub.docker.com/r/pedrocesarti/jmeter-docker/
-  repository: "pedrocesarti/jmeter-docker"
+  repository: "vpdocker1/jmeterdistributed5.2.1"
 
   ## The tag for the image
   ## ref: https://hub.docker.com/r/pedrocesarti/jmeter-docker/tags/
-  tag: 5.2.1
+  tag: latest
