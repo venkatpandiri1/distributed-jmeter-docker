@@ -44,7 +44,7 @@ COPY scripts/docker-entrypoint.sh /docker-entrypoint.sh
 RUN chmod +x install_plugin-manager.sh /docker-entrypoint.sh
 RUN ./install_plugin-manager.sh
 
-EXPOSE 6000 1099 50000
+EXPOSE 60000 1099 50000
 ENV SSL_DISABLED true
 ENTRYPOINT ["/docker-entrypoint.sh"]
 
