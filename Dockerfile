@@ -35,7 +35,7 @@ RUN wget -P ${JMETER_HOME}lib/ext https://repo1.maven.org/maven2/kg/apc/jmeter-p
 
 RUN ${JMETER_HOME}bin/PluginsManagerCMD.sh install jpgc-casutg,jpgc-graphs-basic,jpgc-graphs-composite,jpgc-graphs-vs,jpgc-graphs-additional,jpgc-ggl,jpgc-cmd,jpgc-synthesis,jpgc-graphs-dist,jmeter.backendlistener.azure=0.2.0,jmeter.backendlistener.elasticsearch=2.6.10,jmeter.backendlistener.kafka=1.0.0
 
-RUN wget -P ${JMETER_HOME}lib/ext https://search.maven.org/remotecontent?filepath=com/github/johrstrom/jmeter-prometheus-plugin/0.6.0/jmeter-prometheus-plugin-0.6.0.jar
+RUN wget -P ${JMETER_HOME}lib/ext https://repo1.maven.org/maven2/com/github/johrstrom/jmeter-prometheus-plugin/0.6.0/jmeter-prometheus-plugin-0.6.0.jar
 
 RUN echo $JMETER_VERSION
 
