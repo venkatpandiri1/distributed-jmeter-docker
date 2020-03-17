@@ -6,7 +6,7 @@ version: 1.0.0
 home: http://jmeter.apache.org/
 icon: http://jmeter.apache.org/images/logo.svg
 sources:
-  - https://github.com/pedrocesar-ti/distributed-jmeter-docker
+  - https://github.com/venkatpandiri1/distributed-jmeter-docker
 maintainers:
   - name: pedrocesar-ti
     email: pedrocesar.ti@gmail.com
