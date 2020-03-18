@@ -23,7 +23,11 @@ spec:
         app.kubernetes.io/name: {{ include "distributed-jmeter.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
         app.kubernetes.io/component: server
-    spec:
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/path: "/health/vitals"
+        prometheus.io/port: "3040"
+  spec:
       containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:latest"
