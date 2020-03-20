@@ -27,8 +27,8 @@ spec:
         prometheus.io/scrape: "true"
         prometheus.io/path: "/health/vitals"
         prometheus.io/port: "3040"
-  spec:
-      containers:
+    spec:
+     containers:
         - name: {{ .Chart.Name }}
           image: "{{ .Values.image.repository }}:latest"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
