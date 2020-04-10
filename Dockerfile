@@ -42,6 +42,7 @@ RUN echo $JMETER_VERSION
 WORKDIR $JMETER_HOME
 
 COPY config/user.properties bin/user.properties
+COPY config/setenv.sh bin/setenv.sh
 COPY scripts/install_plugin-manager.sh .
 COPY scripts/docker-entrypoint.sh /docker-entrypoint.sh
 
