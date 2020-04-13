@@ -8,7 +8,7 @@ master:
 
 server:
   ## The number of pods in the server deployment
-  replicaCount: 3
+  replicaCount: 4
 
 image:
   ## Specify an imagePullPolicy
@@ -17,7 +17,7 @@ image:
 
   ## The repository and image
   ## ref: https://hub.docker.com/r/pedrocesarti/jmeter-docker/
-  repository: "vpdocker1/jmeterdistributed5.2.1"
+  repository: "vpdocker1/distributed-jmeter2"
 
   ## The tag for the image
   ## ref: https://hub.docker.com/r/pedrocesarti/jmeter-docker/tags/

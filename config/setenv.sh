@@ -1,1 +1,1 @@
-HEAP="-Xms1g -Xmx2g"
+HEAP="-Xms1g -Xmx3g"
