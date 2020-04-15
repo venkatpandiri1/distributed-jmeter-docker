@@ -34,11 +34,11 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           resources:
           limits:
-            cpu: 1500m
-            memory: 3096Mi
+            cpu: "2"
+            memory: 2Gi
           requests:
-            cpu: 1000m
-            memory: 2572Mi
+            cpu: "2"
+            memory: 2Gi
           args: ["server"]
           ports:
             - containerPort: 50000
