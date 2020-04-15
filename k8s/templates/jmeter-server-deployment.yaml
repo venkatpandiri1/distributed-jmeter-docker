@@ -34,7 +34,7 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           resources:
           limits:
-            cpu: 15000m
+            cpu: 1500m
             memory: 3096Mi
           requests:
             cpu: 1000m
